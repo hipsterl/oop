@@ -10,30 +10,12 @@
 
 <body>
 
-    <div class="car" id='car1'>
-        <div class="info-panel">
-            <label>status:</label><span data-role='status'>off</span>
-        </div>
-        <div class="controls">
-            <input data-role='start-car' type='button' value='Start'>
-            <hr>
-            <label>Gear box:</label><span data-role='gear-box-value'>N</span>
-        </div>
-    </div>
-    <div class="car" id='car2'>
-        <div class="info-panel">
-            <label>status:</label><span data-role='status'>off</span>
-        </div>
-        <div class="controls">
-            <input data-role='start-car' type='button' value='Start'>
-            <input data-role='start-car' type='button' value='Start from Android'>
-            <hr>
-            <label>Gear box:</label><span data-role='gear-box-value'>N</span>
-        </div>
-    </div>
+    <button id='start-all-cars'>Start All Cars</button>
+    <div id='garage'></div>
 
+
+    <script src="./js/startCarProcess.js"></script>
     <script src="./js/car.js"></script>
-   
 </body>
 
 </html>
